@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    display: flex;
+
+    height: 100vh;
+}
+
+.leftside {
+    flex-basis: 50%;
+    margin-top: 30px;
+
+
+}
+
+.rightside {
+    margin-top: 30px;
+    flex-basis: 50%;
+    height: 100vh;
+    width: fit-content;
+    margin-right:20px;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+}
+
+.leftside .container label {
+    height: calc(100%-40px);
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    background-color: grey;
+}
+
+.leftside .container textarea {
+    height: 82%;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+/*right side*/
+
+.rightside iframe {
+    width: 100%;
+    
+    height: 87%;
+    padding: 10px 10px;
+    border: 3px solid red;
+}
+
+.rightside label {
+    background-color: black;
+    height: calc(100%-40px);
+    width: 100%;
+    color: white;
+    padding: 10px;
+
+}
